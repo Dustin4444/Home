@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "echo \"No tests found in the repository.\"",
+    "build": "curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --install-dir $HOME/dotnet && $HOME/dotnet/dotnet restore",
+    "launch": "echo \"This repository does not contain any runnable code.\""
+  }
+}
